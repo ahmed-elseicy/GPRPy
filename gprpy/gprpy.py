@@ -455,6 +455,7 @@ class gprpyProfile:
         amplitudes align at the average two-way travel time of the 
         maximum amplitudes.
         '''
+        #TODO: apply it only one time 
         # Store previous state for undo
         self.storePrevious()        
         self.data = tools.alignTraces(self.data)      
